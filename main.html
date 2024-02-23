@@ -4,10 +4,53 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+    /* Styles for the movie poster */
+    .moviePic {
+        width: 300px;
+        height: auto;
+        opacity: 0.9;
+    }
+
+    /* Styles for the movie description */
+    .movieDetail {
+        position: absolute;
+        top: 50%;
+        width: 80%;
+        text-align: center;
+        font-size: 18px;
+        color: #333;
+        transform: translateY(-50%);
+    }
+
+    /* Additional styles for enhancement */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="container">
+    <!-- Movie Poster -->
+    <img src="movie-poster.jpg" alt="Movie Poster" class="moviePic">
+
+    <!-- Movie Description -->
+    <p class="movieDetail">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae leo eget ante scelerisque faucibus. Vivamus sit amet felis eget nisi mollis lacinia. Integer ut nibh nec turpis placerat eleifend. Ut malesuada velit vel orci fringilla fermentum.
+    </p>
+</div>
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
